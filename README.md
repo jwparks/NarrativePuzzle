@@ -1,2 +1,2 @@
 # NarrativePuzzle
-fMRI and behavioral data analysis
+The behavioral data and Analysis codes will be uploaded during the manuscript submission process
