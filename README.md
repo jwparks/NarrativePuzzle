@@ -3,11 +3,12 @@
 This repository contains the code for the paper **"Solving the Narrative Puzzle: Hippocampal Systems for Event Encoding and Sequencing during Ongoing Comprehension"** by Park et al. (in prep.).
 The paper investigates how the hippocampus contributes to encoding individual events and sequencing them into a coherent narrative during ongoing comprehension.
 This repository provides the analysis code required to reproduce the results presented in the paper.
+
 To ensure reproducibility, we have verified that all analysis scripts run successfully in an independent environment with all necessary resources available in the code and data repository.
 
 ## Data
 For reproducibility, we provide the preprocessed data used in this study:
-- **DATA/**: Contains behavioral scores, ROI time series, and functional connectivity data required to reproduce all results in the paper. Due to the large data size, we have uploaded it to an external storage, which can be accessed [here](https://drive.google.com/file/d/15x0pxJV8RZ7CdPGaJzbbRSG-nSJMNiQg/view?usp=sharing).
+- **_DATA/**: Contains behavioral scores, ROI time series, and functional connectivity data required to reproduce all results in the paper. Due to the large data size, we have uploaded it to an external storage, which can be accessed [here](https://drive.google.com/file/d/15x0pxJV8RZ7CdPGaJzbbRSG-nSJMNiQg/view?usp=sharing).
 - **utils/**: Contains behavioral data (free recall in Korean), movie annotations, and brain atlases used for analysis.
 
 For access to the raw fMRI data used in this study, please refer to the [OpenNeuro](https://openneuro.org/datasets/ds005215) repository. The data is organized in BIDS format and includes the following files:
