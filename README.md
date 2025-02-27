@@ -7,7 +7,7 @@ To ensure reproducibility, we have verified that all analysis scripts run succes
 
 ## Data
 For reproducibility, we provide the preprocessed data used in this study:
-- **DATA/**: Contains behavioral scores, ROI time series, and functional connectivity data required to reproduce all results in the paper. Due to the large data size, we have uploaded it to an external storage, which can be accessed [here](link).
+- **DATA/**: Contains behavioral scores, ROI time series, and functional connectivity data required to reproduce all results in the paper. Due to the large data size, we have uploaded it to an external storage, which can be accessed [here](https://drive.google.com/file/d/15x0pxJV8RZ7CdPGaJzbbRSG-nSJMNiQg/view?usp=sharing).
 - **utils/**: Contains behavioral data (free recall in Korean), movie annotations, and brain atlases used for analysis.
 
 - For access to the raw fMRI data used in this study, please refer to the [OpenNeuro](https://openneuro.org/datasets/ds005215) repository. The data is organized in BIDS format and includes the following files:
