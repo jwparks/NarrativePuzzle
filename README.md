@@ -21,7 +21,7 @@ For access to the raw fMRI data used in this study, please refer to the [OpenNeu
 - **`Figure_3.ipynb`**: Predictive modeling of content and ordering scores using functional connectivity patterns.
 - **`Figure_4.ipynb`**: Identification of event sequencing moments using LLMs based on moment-by-moment narrative coherence.
 - **`Figure_5.ipynb`**: Predictive performance of the hippocampo-cortical model using LLM-generated sequencing moments.
-> **Note**: `Figure_1` is not included in this repository as it is a schematic figure that can be generated separately.
+> **Note**: `Figure_1` is not included in this repository as it is a schematic figure.
 ### Supplementary Figures
 - **`Figure_S1.ipynb`**: Structure of the temporally scrambled movie stimulus with sequencing and post-event boundary moments.
 - **`Figure_S2.ipynb`**: Assessing individual narrative memories using a topic model.
@@ -33,9 +33,10 @@ For access to the raw fMRI data used in this study, please refer to the [OpenNeu
 ## Python Environment
 To reproduce the results, we recommend using the following Python environment:
 ```bash
+git clone https://github.com/jwparks/NarrativePuzzle.git
+cd NarrativePuzzle
 conda create -n narrative_puzzle python=3.10
 conda activate narrative_puzzle
-git clone https://github.com/jwparks/NarrativePuzzle.git
 pip install -r requirements.txt
 ```
 ### Key dependencies:
@@ -51,6 +52,7 @@ pip install -r requirements.txt
 - nibabel (`nibabel==5.1.0`)
 - nilearn (`nilearn==0.10.1`)
 - nltools (`nltools==0.4.7`)
+
 For additional dependencies, please refer to `requirements.txt` included in the repository.
 
 ## Running the Analysis
