@@ -10,11 +10,11 @@ For reproducibility, we provide the preprocessed data used in this study:
 - **DATA/**: Contains behavioral scores, ROI time series, and functional connectivity data required to reproduce all results in the paper. Due to the large data size, we have uploaded it to an external storage, which can be accessed [here](https://drive.google.com/file/d/15x0pxJV8RZ7CdPGaJzbbRSG-nSJMNiQg/view?usp=sharing).
 - **utils/**: Contains behavioral data (free recall in Korean), movie annotations, and brain atlases used for analysis.
 
-- For access to the raw fMRI data used in this study, please refer to the [OpenNeuro](https://openneuro.org/datasets/ds005215) repository. The data is organized in BIDS format and includes the following files:
+For access to the raw fMRI data used in this study, please refer to the [OpenNeuro](https://openneuro.org/datasets/ds005215) repository. The data is organized in BIDS format and includes the following files:
 - `sub-<subject_id>/anat/sub-<subject_id>_T1w.nii.gz`: Structural MRI data for each subject.
 - `sub-<subject_id>/func/sub-<subject_id>_task-filmrecall_run-1.nii.gz`: fMRI data for each subject.
-All neuroimaging data has been defaced and does not contain any personally identifiable information.
-- 
+> **Note**: All neuroimaging data has been defaced and does not contain any personally identifiable information.
+
 ## Code Description
 ### Main Figures
 - **`Figure_2.ipynb`**: Assessment of content and sequence memory in ongoing narrative comprehension.
@@ -40,17 +40,17 @@ pip install -r requirements.txt
 ```
 ### Key dependencies:
 - Python 3.10
-- NumPy (e.g., `numpy==1.25.0`)
-- SciPy (e.g., `scipy==1.15.1`)
-- pandas (e.g., `pandas==2.0.2`)
-- KoNLPy (e.g., `konlpy==0.6.0`)
-- scikit-learn (e.g., `scikit-learn==1.2.2`)
-- statsmodels (e.g., `statsmodels==0.14.0`)
-- matplotlib (e.g., `matplotlib==3.7.1`)
-- seaborn (e.g., `seaborn==0.13.2`)
-- nibabel (e.g., `nibabel==5.1.0`)
-- nilearn (e.g., `nilearn==0.10.1`)
-- nltools (e.g., `nltools==0.4.7`)
+- NumPy (`numpy==1.25.0`)
+- SciPy (`scipy==1.15.1`)
+- pandas (`pandas==2.0.2`)
+- KoNLPy (`konlpy==0.6.0`)
+- scikit-learn (`scikit-learn==1.2.2`)
+- statsmodels (`statsmodels==0.14.0`)
+- matplotlib (`matplotlib==3.7.1`)
+- seaborn (`seaborn==0.13.2`)
+- nibabel (`nibabel==5.1.0`)
+- nilearn (`nilearn==0.10.1`)
+- nltools (`nltools==0.4.7`)
 For additional dependencies, please refer to `requirements.txt` included in the repository.
 
 ## Running the Analysis
